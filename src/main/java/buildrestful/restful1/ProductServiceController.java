@@ -27,17 +27,23 @@ public class ProductServiceController {
     static {
         Product honey = new Product();
         honey.setId("1");
-        honey.setName("Arum Ndanang");
+        honey.setName("anggur 2kg");
+        honey.setJumlah("2kg");
+        honey.setHarga("20.000");
         productRepo.put(honey.getId(), honey);
         
         Product almond = new Product();
         almond.setId("2");
-        almond.setName("SARANGHEYOO BUAT KAMU");
+        almond.setName("apel");
+        almond.setJumlah("5 buah");
+        almond.setHarga("5.000");
         productRepo.put(almond.getId(), almond);
         
          Product keju = new Product();
         keju.setId("3");
-        keju.setName("SLEBEW");
+        keju.setName("esteh");
+        keju.setJumlah("3");
+        keju.setHarga("9.000");
         productRepo.put(keju.getId(), keju);
     }
     @RequestMapping(value = "/products")

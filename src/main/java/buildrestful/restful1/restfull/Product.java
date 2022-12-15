@@ -11,6 +11,8 @@ package buildrestful.restful1.restfull;
 public class Product {
     private String id;
     private String name;
+    private String harga;
+    private String QTY;
 
     public String getId() {
         return id;
@@ -27,5 +29,23 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getHarga() {
+        return harga;
+    }
+
+    public void setHarga(String harga) {
+        this.harga = harga;
+    }
+
+    public String getQTY() {
+        return QTY;
+    }
+
+    public void setJumlah(String jumlah) {
+        this.QTY = jumlah;
+    }
+    
+    
     
 }
