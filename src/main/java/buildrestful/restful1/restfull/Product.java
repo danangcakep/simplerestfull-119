@@ -9,11 +9,12 @@ package buildrestful.restful1.restfull;
  * @author Microsoft
  */
 public class Product {
+    //mendeklerasikan private String id,name,harga,qty
     private String id;
     private String name;
     private String harga;
     private String QTY;
-
+    //insert code otomatis di getter and senter and ceklist 
     public String getId() {
         return id;
     }
@@ -38,7 +39,7 @@ public class Product {
         this.harga = harga;
     }
 
-    public String getQTY() {
+    public String getJumlahbarang() {
         return QTY;
     }
 
